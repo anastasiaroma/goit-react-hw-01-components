@@ -1,0 +1,39 @@
+.list {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.avatar {
+  margin-right: 20px;
+  width: 100px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
+}
+.statusOnline {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+  margin-left: 5px;
+}
+.statusOffline {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(212, 20, 20);
+  margin-left: 5px;
+}

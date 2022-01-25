@@ -1,0 +1,23 @@
+.transactionHistory {
+  padding-top: 50px;
+  width: 500px;
+  margin: auto;
+}
+
+.head {
+  height: 50px;
+  background-color: rgb(86, 144, 192);
+  color: rgb(240, 210, 156);
+  text-transform: uppercase;
+}
+.tableBody {
+  text-align: center;
+  color: rgb(88, 78, 78);
+}
+.string {
+  height: 30px;
+  background-color: rgb(233, 236, 245);
+}
+.string:nth-child(2n + 1) {
+  background-color: white;
+}
